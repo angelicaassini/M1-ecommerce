@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Capstone 1</title>
+</head>
+<body> 
+    <header>
+        <section id="header-container">
+            <h1 class="logo">Weartake</h1>
+            <nav>
+                <li>Todos</li>
+                <li>Acessórios</li>
+                <li>Calçados</li>
+                <li>Camisetas</li>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <ul class="produtos">
+            <!-- <li id="1" class="item-vitrine">
+                <figure class="figure-vitrine">
+                    <img class="img-vitrine" src="./img/jaqueta.svg" alt="">
+                </figure>
+                <section class="texts-vitrine">
+                    <p class="tag">Camisetas</p>
+                    <p class="product-name">Lightweight Jacket</p>
+                    <p class="description">Adicione um pouco de energia ao       
+                    seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                    <p class="price">R$ 100.00</p>
+                    <button class="btn-add-carrinho">Adicionar ao carrinho</button>
+                </section>
+            </li>
+            <li id="2" class="item-vitrine">
+                <figure class="figure-vitrine">
+                    <img class="img-vitrine" src="./img/gorro.svg" alt="">
+                </figure>
+                <section class="texts-vitrine">
+                    <p class="tag">Acessórios</p>
+                    <p class="product-name">Black Hat</p>
+                    <p class="description">O gorro Next.js chegou! 
+                        Esta beldade bordada tem um ajuste confortável que garante que...</p>
+                    <p class="price">R$ 100.00</p>
+                    <button class="btn-add-carrinho">Adicionar ao carrinho</button>
+                </section>
+            </li>
+            <li id="3" class="item-vitrine">
+                <figure class="figure-vitrine">
+                    <img class="img-vitrine" src="./img/mascara.svg" alt="">
+                </figure>
+                <section class="texts-vitrine">
+                    <p class="tag">Acessórios</p>
+                    <p class="product-name">Mask</p>
+                    <p class="description">Esta máscara facial durável 
+                        é feita de duas camadas de tecido tratado e possui presilhas...</p>
+                    <p class="price">R$ 100.00</p>
+                    <button class="btn-add-carrinho">Adicionar ao carrinho</button>
+                </section>
+            </li>
+            <li id="4" class="item-vitrine">
+                <figure class="figure-vitrine">
+                    <img class="img-vitrine" src="./img/camiseta_preta.svg" alt="">
+                </figure>
+                <section class="texts-vitrine">
+                    <p class="tag">Camisetas</p>
+                    <p class="product-name">T-shirt</p>
+                    <p class="description">Esta t-shirt é imprescindível no 
+                        seu guarda-roupa, combinando o caimento intemporal de...e...</p>
+                    <p class="price">R$ 100.00</p>
+                    <button class="btn-add-carrinho">Adicionar ao carrinho</button>
+                </section>
+            </li>
+            <li id="5" class="item-vitrine">
+                <figure class="figure-vitrine">
+                    <img class="img-vitrine" src="./img/camiseta_branca.svg" alt="">
+                </figure>
+                <section class="texts-vitrine">
+                    <p class="tag">Camisetas</p>
+                    <p class="product-name">Short-Sleeve T-Shirt</p>
+                    <p class="description">Agora você encontrou a camiseta 
+                        básica do seu guarda-roupa. É feito de um mais grosso...</p>
+                    <p class="price">R$ 100.00</p>
+                    <button class="btn-add-carrinho">Adicionar ao carrinho</button>
+                </section>
+            </li>
+            <li id="6" class="item-vitrine">
+                <figure class="figure-vitrine">
+                    <img class="img-vitrine" src="./img/moletom.svg" alt="">
+                </figure>
+                <section class="texts-vitrine">
+                    <p class="tag">Camisetas</p>
+                    <p class="product-name">Champion Packable Jacket</p>
+                    <p class="description">Proteja-se dos elementos com 
+                        esta jaqueta embalável Champion. Esta jaqueta de poliést...</p>
+                    <p class="price">R$ 100.00</p>
+                    <button class="btn-add-carrinho">Adicionar ao carrinho</button>
+                </section>
+            </li> -->
+        </ul>
+        <aside>
+            
+            <div>
+                <input placeholder="Digite aqui sua pesquisa">
+                <button>Pesquisar</button>
+            </div>
+            <section class="carrinho-de-compras">
+                <button class="btn-carrinho">Carrinho de compras</button>
+                <ul id="lista-produtos-carrinho">
+                    <!-- <li class="item-carrinho">
+                        <figure class="figure-carrinho">
+                            <img class="img-carrinho" src="./img/jaqueta.svg" alt="">
+                        </figure>
+                        <section class="section-carrinho">
+                            <p class="product-name">Lightweight Jacket</p>
+                            <p class="price">R$ 100.00</p>
+                            <button class="btn-remove">Remover produto</button>
+                        </section>
+                    </li> -->
+                </ul>
+                <div class="total-carrinho">
+                    <div id="linha1">
+                        <p>Quantidade:</p>
+                        <p id="quantidade-total"></p>
+                    </div>
+                    <div id="linha2">
+                        <p>Total:</p>
+                        <p id="preço-total"></p>
+                    </div>    
+                </div>
+            </section>
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="./js/database.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+body, header, main, footer, section, div, aside, 
+nav, ul, li, img, a, h1, h2, h3, p, figure, figcaption{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header section#header-container{
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 0 40px 0;
+    
+}
+
+header section h1.logo{
+    width: 212px;
+    height: 32px;
+    margin: auto 0 auto 118px;
+    font-family: Inter;
+    font-size: 30px;
+    color: rgba(41, 41, 41, 1);
+    display: block;
+    
+}
+
+header section nav{
+    width: 370px;
+    height: 16px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: auto 0;
+   
+}
+                
+header section nav li{
+    font-size: 16px;
+    color: rgba(41, 41, 41, 1);
+}             
+
+header section nav li:hover{
+    font-size: 16px;
+    color: rgba(41, 41, 41, 1);
+    font-weight: bold;
+    
+}    
+
+main{
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    justify-content: center;
+}
+
+main ul.produtos{
+    max-width: 62%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+} 
+main ul li.item-vitrine{
+    width: 296px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+}  
+
+main ul li.item-vitrine:hover{
+    width: 296px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #000000;
+    box-sizing: content-box;
+} 
+
+main ul li figure.figure-vitrine{
+    height: 154px;
+    width: 296px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 1);
+    
+   
+}            
+main ul li figure img.img-vitrine{
+    height: 90%;
+    width: 90%;
+    padding: 9px 52.19px 5px 52px;
+    
+    } 
+
+main ul li section.texts-vitrine{
+    height: 254px;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgba(245, 245, 245, 1);   
+}
+
+main ul li section p.tag{
+    width: 70px;
+    height:  24px;
+    margin: 0 0 0 15px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(46, 36, 94, 1);
+    font-weight: 400;
+    text-align: center;
+}
+
+main ul li section p.product-name{
+    color: rgba(41, 41, 41, 1);
+    margin: 0 0 0 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+main ul li section p.description{
+    margin: 0 0 0 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+main ul li section p.price{
+    margin: 0 0 0 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+main ul li section button.btn-add-carrinho{
+    margin: 0 0 0 5px;
+    width: 157px;
+    height: 18px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 14px; 
+}
+
+main ul li section button.btn-add-carrinho:hover{
+    margin: 0 0 0 5px;
+    width: 157px;
+    height: 18px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 14px; 
+    text-decoration: underline;
+}
+
+main aside{
+    width: 347px;
+    display: flex;
+    flex-direction: column;
+}
+main aside div{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+main aside div input{
+    width:  246px;
+    height: 52px;
+    font-size: 14px;
+    color: rgba(36, 36, 36, 1);
+
+}
+main aside div button{
+    background-color: rgba(46, 36, 94, 1);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+main aside section.carrinho-de-compras{
+    max-width: 100%;
+    margin: 20px 0 0 0;
+}
+
+main aside section button.btn-carrinho{
+    width: 347px;
+    height: 50px;
+    background-color: rgba(55, 38, 140, 1);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+main aside section ul{
+    width: 347px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 1);
+    justify-content:start;
+}
+main aside section ul li.item-carrinho{
+    width: 300px;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+main aside section ul li figure.figure-carrinho{
+    width: 40%;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+}
+
+main aside section ul li figure img.img-carrinho{
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    align-content: center;
+}
+
+main aside section ul li section.section-carrinho{
+    max-width: 50%;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+main aside section li section button.btn-remove{
+    border-color: transparent;
+    background-color: transparent;
+}
+
+main aside section li section button.btn-remove:hover{
+    border-color: transparent;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+main aside section div.total-carrinho{
+    background-color: rgba(41, 41, 41, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    height: 126px;
+    align-content:space-between;
+}
+
+main aside section div div#linha1{
+   margin:  auto 14px;
+}
+
+main aside section div div#linha2{
+   margin:  auto 14px;
+}
